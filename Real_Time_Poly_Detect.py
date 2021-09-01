@@ -52,7 +52,7 @@ while True:
 
         if len(approx) == 3:
             cv.putText(frame,"Triangle",(x,y),font,1,(0,0,0))
-        elif len(approx) == 3:
+        elif len(approx) == 4:
             cv.putText(frame,"Rectangle",(x,y),font,1,(0,0,0))
         elif len(approx) > 6:
             cv.putText(frame,"Circle",(x,y),font,1,(0,0,0))
